@@ -1,0 +1,10 @@
+D:\5th Semester\Pharma+\PharmaPlus\PharmaPlus\PharmaPlus\bin\Debug\PharmaPlus.exe.config
+D:\5th Semester\Pharma+\PharmaPlus\PharmaPlus\PharmaPlus\bin\Debug\PharmaPlus.exe
+D:\5th Semester\Pharma+\PharmaPlus\PharmaPlus\PharmaPlus\bin\Debug\PharmaPlus.pdb
+D:\5th Semester\Pharma+\PharmaPlus\PharmaPlus\PharmaPlus\obj\Debug\PharmaPlus.csprojAssemblyReference.cache
+D:\5th Semester\Pharma+\PharmaPlus\PharmaPlus\PharmaPlus\obj\Debug\PharmaPlus.Login.resources
+D:\5th Semester\Pharma+\PharmaPlus\PharmaPlus\PharmaPlus\obj\Debug\PharmaPlus.Properties.Resources.resources
+D:\5th Semester\Pharma+\PharmaPlus\PharmaPlus\PharmaPlus\obj\Debug\PharmaPlus.csproj.GenerateResource.cache
+D:\5th Semester\Pharma+\PharmaPlus\PharmaPlus\PharmaPlus\obj\Debug\PharmaPlus.csproj.CoreCompileInputs.cache
+D:\5th Semester\Pharma+\PharmaPlus\PharmaPlus\PharmaPlus\obj\Debug\PharmaPlus.exe
+D:\5th Semester\Pharma+\PharmaPlus\PharmaPlus\PharmaPlus\obj\Debug\PharmaPlus.pdb

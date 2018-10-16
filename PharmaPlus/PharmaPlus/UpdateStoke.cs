@@ -10,11 +10,21 @@ using System.Windows.Forms;
 
 namespace PharmaPlus
 {
-    public partial class Form1 : Form
+    public partial class UpdateStoke : Form
     {
-        public Form1()
+        public UpdateStoke()
         {
             InitializeComponent();
+        }
+
+        private void button4_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void UpdateStoke_Load(object sender, EventArgs e)
+        {
+
         }
     }
 }
