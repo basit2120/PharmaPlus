@@ -10,9 +10,9 @@ using System.Windows.Forms;
 
 namespace PharmaPlus
 {
-    public partial class Home : Form
+    public partial class frmHome : Form
     {
-        public Home()
+        public frmHome()
         {
             InitializeComponent();
         }
@@ -24,7 +24,9 @@ namespace PharmaPlus
 
         private void button1_Click(object sender, EventArgs e)
         {
-            L
+            frmLogin login = new frmLogin();
+            this.Hide();
+            login.Show();
         }
 
         private void label1_Click(object sender, EventArgs e)
@@ -45,6 +47,34 @@ namespace PharmaPlus
         private void label4_Click(object sender, EventArgs e)
         {
 
+        }
+
+        private void pictureBox2_Click(object sender, EventArgs e)
+        {
+            frmAddStock f1 = new frmAddStock();
+            this.Hide();
+            f1.Show();
+        }
+
+        private void pictureBox3_Click(object sender, EventArgs e)
+        {
+            frmSaleStock f2 = new frmSaleStock();
+            this.Hide();
+            f2.Show();
+        }
+
+        private void pictureBox4_Click(object sender, EventArgs e)
+        {
+            frmAddEmployer f3 = new frmAddEmployer();
+            this.Hide();
+            f3.Show();
+        }
+
+        private void pictureBox5_Click(object sender, EventArgs e)
+        {
+            frmAddCompany f4 = new frmAddCompany();
+            this.Hide();
+            f4.Show();
         }
     }
 }

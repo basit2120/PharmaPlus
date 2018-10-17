@@ -1,6 +1,6 @@
 ﻿namespace PharmaPlus
 {
-    partial class Login
+    partial class frmLogin
     {
         /// <summary>
         /// Required designer variable.
@@ -51,6 +51,7 @@
             this.button1.TabIndex = 1;
             this.button1.Text = "LOGIN";
             this.button1.UseVisualStyleBackColor = true;
+            this.button1.Click += new System.EventHandler(this.button1_Click);
             // 
             // textBox1
             // 
@@ -122,14 +123,14 @@
             // pictureBox6
             // 
             this.pictureBox6.Image = global::PharmaPlus.Properties.Resources.shutterstock_medicine_tabletsCropped;
-            this.pictureBox6.Location = new System.Drawing.Point(-14, -13);
+            this.pictureBox6.Location = new System.Drawing.Point(0, 0);
             this.pictureBox6.Name = "pictureBox6";
-            this.pictureBox6.Size = new System.Drawing.Size(821, 587);
+            this.pictureBox6.Size = new System.Drawing.Size(796, 560);
             this.pictureBox6.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
             this.pictureBox6.TabIndex = 44;
             this.pictureBox6.TabStop = false;
             // 
-            // Login
+            // frmLogin
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
@@ -138,7 +139,7 @@
             this.Controls.Add(this.pictureBox2);
             this.Controls.Add(this.groupBox1);
             this.Controls.Add(this.pictureBox6);
-            this.Name = "Login";
+            this.Name = "frmLogin";
             this.Text = "Login";
             this.Load += new System.EventHandler(this.Form1_Load);
             this.groupBox1.ResumeLayout(false);

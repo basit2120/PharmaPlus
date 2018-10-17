@@ -1,6 +1,6 @@
 ﻿namespace PharmaPlus
 {
-    partial class ViewStock
+    partial class frmViewStock
     {
         /// <summary>
         /// Required designer variable.
@@ -64,6 +64,7 @@
             this.button1.TabIndex = 31;
             this.button1.Text = "LOGOUT";
             this.button1.UseVisualStyleBackColor = false;
+            this.button1.Click += new System.EventHandler(this.button1_Click);
             // 
             // button3
             // 
@@ -76,6 +77,7 @@
             this.button3.TabIndex = 35;
             this.button3.Text = "HOME";
             this.button3.UseVisualStyleBackColor = false;
+            this.button3.Click += new System.EventHandler(this.button3_Click);
             // 
             // button2
             // 
@@ -122,6 +124,7 @@
             this.button6.TabIndex = 38;
             this.button6.Text = "Remove\r\nStock";
             this.button6.UseVisualStyleBackColor = false;
+            this.button6.Click += new System.EventHandler(this.button6_Click);
             // 
             // button5
             // 
@@ -134,6 +137,7 @@
             this.button5.TabIndex = 37;
             this.button5.Text = "Update \r\nStock";
             this.button5.UseVisualStyleBackColor = false;
+            this.button5.Click += new System.EventHandler(this.button5_Click);
             // 
             // button4
             // 
@@ -146,6 +150,7 @@
             this.button4.TabIndex = 36;
             this.button4.Text = "Add\r\nStock";
             this.button4.UseVisualStyleBackColor = false;
+            this.button4.Click += new System.EventHandler(this.button4_Click);
             // 
             // groupBox2
             // 
@@ -248,7 +253,7 @@
             this.pictureBox2.TabIndex = 45;
             this.pictureBox2.TabStop = false;
             // 
-            // ViewStock
+            // frmViewStock
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
@@ -265,7 +270,7 @@
             this.Controls.Add(this.groupBox1);
             this.Controls.Add(this.pictureBox3);
             this.Controls.Add(this.pictureBox4);
-            this.Name = "ViewStock";
+            this.Name = "frmViewStock";
             this.Text = "0";
             this.groupBox2.ResumeLayout(false);
             this.groupBox2.PerformLayout();

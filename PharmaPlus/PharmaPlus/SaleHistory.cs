@@ -10,9 +10,9 @@ using System.Windows.Forms;
 
 namespace PharmaPlus
 {
-    public partial class SaleHistory : Form
+    public partial class frmSaleHistory : Form
     {
-        public SaleHistory()
+        public frmSaleHistory()
         {
             InitializeComponent();
         }

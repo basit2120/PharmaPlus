@@ -1,6 +1,6 @@
 ﻿namespace PharmaPlus
 {
-    partial class EmployerList
+    partial class frmEmployerList
     {
         /// <summary>
         /// Required designer variable.
@@ -118,6 +118,7 @@
             this.button5.TabIndex = 31;
             this.button5.Text = "Remove\r\nEmployer";
             this.button5.UseVisualStyleBackColor = false;
+            this.button5.Click += new System.EventHandler(this.button5_Click);
             // 
             // button4
             // 
@@ -130,6 +131,7 @@
             this.button4.TabIndex = 30;
             this.button4.Text = "Add\r\nEmployer";
             this.button4.UseVisualStyleBackColor = false;
+            this.button4.Click += new System.EventHandler(this.button4_Click);
             // 
             // button1
             // 
@@ -142,6 +144,7 @@
             this.button1.TabIndex = 47;
             this.button1.Text = "LOGOUT";
             this.button1.UseVisualStyleBackColor = false;
+            this.button1.Click += new System.EventHandler(this.button1_Click);
             // 
             // button3
             // 
@@ -154,6 +157,7 @@
             this.button3.TabIndex = 51;
             this.button3.Text = "HOME";
             this.button3.UseVisualStyleBackColor = false;
+            this.button3.Click += new System.EventHandler(this.button3_Click);
             // 
             // button2
             // 
@@ -201,7 +205,7 @@
             this.pictureBox7.TabIndex = 53;
             this.pictureBox7.TabStop = false;
             // 
-            // EmployerList
+            // frmEmployerList
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
@@ -216,7 +220,7 @@
             this.Controls.Add(this.button5);
             this.Controls.Add(this.button4);
             this.Controls.Add(this.pictureBox2);
-            this.Name = "EmployerList";
+            this.Name = "frmEmployerList";
             this.Text = "EmployerList";
             this.groupBox2.ResumeLayout(false);
             this.groupBox2.PerformLayout();

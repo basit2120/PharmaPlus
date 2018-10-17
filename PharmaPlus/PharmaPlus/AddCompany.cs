@@ -10,9 +10,9 @@ using System.Windows.Forms;
 
 namespace PharmaPlus
 {
-    public partial class AddCompany : Form
+    public partial class frmAddCompany : Form
     {
-        public AddCompany()
+        public frmAddCompany()
         {
             InitializeComponent();
         }
@@ -25,6 +25,39 @@ namespace PharmaPlus
         private void label3_Click(object sender, EventArgs e)
         {
 
+        }
+
+        private void button3_Click(object sender, EventArgs e)
+        {
+            frmHome home = new frmHome();
+            this.Hide();
+            home.Show();
+        }
+
+        private void button1_Click(object sender, EventArgs e)
+        {
+            frmLogin login = new frmLogin();
+            this.Hide();
+            login.Show();
+        }
+
+        private void button8_Click(object sender, EventArgs e)
+        {
+            MessageBox.Show("Company has been Added");
+        }
+
+        private void button5_Click(object sender, EventArgs e)
+        {
+            frmRemoveCompany removeCompany = new frmRemoveCompany();
+            this.Hide();
+            removeCompany.Show();
+        }
+
+        private void button6_Click(object sender, EventArgs e)
+        {
+            frmCompanyList companyList = new frmCompanyList();
+            this.Hide();
+            companyList.Show();
         }
     }
 }

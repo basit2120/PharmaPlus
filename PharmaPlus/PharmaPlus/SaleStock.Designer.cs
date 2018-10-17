@@ -1,6 +1,6 @@
 ﻿namespace PharmaPlus
 {
-    partial class SaleStock
+    partial class frmSaleStock
     {
         /// <summary>
         /// Required designer variable.
@@ -70,6 +70,7 @@
             this.button1.TabIndex = 36;
             this.button1.Text = "LOGOUT";
             this.button1.UseVisualStyleBackColor = false;
+            this.button1.Click += new System.EventHandler(this.button1_Click);
             // 
             // button3
             // 
@@ -82,6 +83,7 @@
             this.button3.TabIndex = 40;
             this.button3.Text = "HOME";
             this.button3.UseVisualStyleBackColor = false;
+            this.button3.Click += new System.EventHandler(this.button3_Click);
             // 
             // button2
             // 
@@ -323,7 +325,7 @@
             this.pictureBox7.TabIndex = 45;
             this.pictureBox7.TabStop = false;
             // 
-            // SaleStock
+            // frmSaleStock
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
@@ -337,7 +339,7 @@
             this.Controls.Add(this.button5);
             this.Controls.Add(this.button4);
             this.Controls.Add(this.pictureBox2);
-            this.Name = "SaleStock";
+            this.Name = "frmSaleStock";
             this.Text = "Sale";
             this.groupBox2.ResumeLayout(false);
             this.groupBox2.PerformLayout();

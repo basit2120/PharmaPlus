@@ -10,11 +10,39 @@ using System.Windows.Forms;
 
 namespace PharmaPlus
 {
-    public partial class EmployerList : Form
+    public partial class frmEmployerList : Form
     {
-        public EmployerList()
+        public frmEmployerList()
         {
             InitializeComponent();
+        }
+
+        private void button3_Click(object sender, EventArgs e)
+        {
+            frmHome home = new frmHome();
+            this.Hide();
+            home.Show();
+        }
+
+        private void button1_Click(object sender, EventArgs e)
+        {
+            frmLogin login = new frmLogin();
+            this.Hide();
+            login.Show();
+        }
+
+        private void button5_Click(object sender, EventArgs e)
+        {
+            frmRemoveEmployer removeEmployer = new frmRemoveEmployer();
+            this.Hide();
+            removeEmployer.Show();
+        }
+
+        private void button4_Click(object sender, EventArgs e)
+        {
+            frmAddEmployer addEmployer = new frmAddEmployer();
+            this.Hide();
+            addEmployer.Show();
         }
     }
 }

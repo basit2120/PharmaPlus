@@ -1,6 +1,6 @@
 ﻿namespace PharmaPlus
 {
-    partial class RemoveStock
+    partial class frmRemoveStock
     {
         /// <summary>
         /// Required designer variable.
@@ -97,6 +97,7 @@
             this.button8.TabIndex = 26;
             this.button8.Text = "Remove Stock";
             this.button8.UseVisualStyleBackColor = false;
+            this.button8.Click += new System.EventHandler(this.button8_Click);
             // 
             // dateTimePicker1
             // 
@@ -239,6 +240,7 @@
             this.button7.TabIndex = 24;
             this.button7.Text = "View \r\nStock";
             this.button7.UseVisualStyleBackColor = true;
+            this.button7.Click += new System.EventHandler(this.button7_Click);
             // 
             // button6
             // 
@@ -263,6 +265,7 @@
             this.button5.TabIndex = 22;
             this.button5.Text = "Update \r\nStock";
             this.button5.UseVisualStyleBackColor = false;
+            this.button5.Click += new System.EventHandler(this.button5_Click);
             // 
             // button4
             // 
@@ -275,6 +278,7 @@
             this.button4.TabIndex = 21;
             this.button4.Text = "Add\r\nStock";
             this.button4.UseVisualStyleBackColor = false;
+            this.button4.Click += new System.EventHandler(this.button4_Click);
             // 
             // button1
             // 
@@ -287,6 +291,7 @@
             this.button1.TabIndex = 26;
             this.button1.Text = "LOGOUT";
             this.button1.UseVisualStyleBackColor = false;
+            this.button1.Click += new System.EventHandler(this.button1_Click);
             // 
             // button3
             // 
@@ -299,6 +304,7 @@
             this.button3.TabIndex = 30;
             this.button3.Text = "HOME";
             this.button3.UseVisualStyleBackColor = false;
+            this.button3.Click += new System.EventHandler(this.button3_Click);
             // 
             // button2
             // 
@@ -346,7 +352,7 @@
             this.pictureBox1.TabIndex = 44;
             this.pictureBox1.TabStop = false;
             // 
-            // RemoveStock
+            // frmRemoveStock
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
@@ -362,7 +368,7 @@
             this.Controls.Add(this.button5);
             this.Controls.Add(this.button4);
             this.Controls.Add(this.pictureBox2);
-            this.Name = "RemoveStock";
+            this.Name = "frmRemoveStock";
             this.Text = "RemoveStock";
             this.Load += new System.EventHandler(this.RemoveStock_Load);
             this.groupBox2.ResumeLayout(false);

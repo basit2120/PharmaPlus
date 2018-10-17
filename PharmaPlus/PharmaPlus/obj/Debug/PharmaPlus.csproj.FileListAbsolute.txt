@@ -8,3 +8,26 @@ D:\5th Semester\Pharma+\PharmaPlus\PharmaPlus\PharmaPlus\obj\Debug\PharmaPlus.cs
 D:\5th Semester\Pharma+\PharmaPlus\PharmaPlus\PharmaPlus\obj\Debug\PharmaPlus.csproj.CoreCompileInputs.cache
 D:\5th Semester\Pharma+\PharmaPlus\PharmaPlus\PharmaPlus\obj\Debug\PharmaPlus.exe
 D:\5th Semester\Pharma+\PharmaPlus\PharmaPlus\PharmaPlus\obj\Debug\PharmaPlus.pdb
+E:\UET CS\5th Smester\PharmaPlus\PharmaPlus\PharmaPlus\obj\Debug\PharmaPlus.csprojAssemblyReference.cache
+E:\UET CS\5th Smester\PharmaPlus\PharmaPlus\PharmaPlus\obj\Debug\PharmaPlus.frmAddCompany.resources
+E:\UET CS\5th Smester\PharmaPlus\PharmaPlus\PharmaPlus\obj\Debug\PharmaPlus.frmAddEmployer.resources
+E:\UET CS\5th Smester\PharmaPlus\PharmaPlus\PharmaPlus\obj\Debug\PharmaPlus.frmCompanyList.resources
+E:\UET CS\5th Smester\PharmaPlus\PharmaPlus\PharmaPlus\obj\Debug\PharmaPlus.frmEmployerList.resources
+E:\UET CS\5th Smester\PharmaPlus\PharmaPlus\PharmaPlus\obj\Debug\PharmaPlus.frmHome.resources
+E:\UET CS\5th Smester\PharmaPlus\PharmaPlus\PharmaPlus\obj\Debug\PharmaPlus.frmLogin.resources
+E:\UET CS\5th Smester\PharmaPlus\PharmaPlus\PharmaPlus\obj\Debug\PharmaPlus.Properties.Resources.resources
+E:\UET CS\5th Smester\PharmaPlus\PharmaPlus\PharmaPlus\obj\Debug\PharmaPlus.frmAddStock.resources
+E:\UET CS\5th Smester\PharmaPlus\PharmaPlus\PharmaPlus\obj\Debug\PharmaPlus.frmRemoveCompany.resources
+E:\UET CS\5th Smester\PharmaPlus\PharmaPlus\PharmaPlus\obj\Debug\PharmaPlus.frmRemoveEmployer.resources
+E:\UET CS\5th Smester\PharmaPlus\PharmaPlus\PharmaPlus\obj\Debug\PharmaPlus.frmRemoveStock.resources
+E:\UET CS\5th Smester\PharmaPlus\PharmaPlus\PharmaPlus\obj\Debug\PharmaPlus.frmSaleHistory.resources
+E:\UET CS\5th Smester\PharmaPlus\PharmaPlus\PharmaPlus\obj\Debug\PharmaPlus.frmSaleStock.resources
+E:\UET CS\5th Smester\PharmaPlus\PharmaPlus\PharmaPlus\obj\Debug\PharmaPlus.frmUpdateStoke.resources
+E:\UET CS\5th Smester\PharmaPlus\PharmaPlus\PharmaPlus\obj\Debug\PharmaPlus.frmViewStock.resources
+E:\UET CS\5th Smester\PharmaPlus\PharmaPlus\PharmaPlus\obj\Debug\PharmaPlus.csproj.GenerateResource.cache
+E:\UET CS\5th Smester\PharmaPlus\PharmaPlus\PharmaPlus\obj\Debug\PharmaPlus.csproj.CoreCompileInputs.cache
+E:\UET CS\5th Smester\PharmaPlus\PharmaPlus\PharmaPlus\obj\Debug\PharmaPlus.exe
+E:\UET CS\5th Smester\PharmaPlus\PharmaPlus\PharmaPlus\obj\Debug\PharmaPlus.pdb
+E:\UET CS\5th Smester\PharmaPlus\PharmaPlus\PharmaPlus\bin\Debug\PharmaPlus.exe.config
+E:\UET CS\5th Smester\PharmaPlus\PharmaPlus\PharmaPlus\bin\Debug\PharmaPlus.exe
+E:\UET CS\5th Smester\PharmaPlus\PharmaPlus\PharmaPlus\bin\Debug\PharmaPlus.pdb

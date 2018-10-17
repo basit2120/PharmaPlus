@@ -10,9 +10,9 @@ using System.Windows.Forms;
 
 namespace PharmaPlus
 {
-    public partial class SaleStock : Form
+    public partial class frmSaleStock : Form
     {
-        public SaleStock()
+        public frmSaleStock()
         {
             InitializeComponent();
         }
@@ -30,6 +30,20 @@ namespace PharmaPlus
         private void textBox6_TextChanged(object sender, EventArgs e)
         {
 
+        }
+
+        private void button3_Click(object sender, EventArgs e)
+        {
+            frmHome home = new frmHome();
+            this.Hide();
+            home.Show();
+        }
+
+        private void button1_Click(object sender, EventArgs e)
+        {
+            frmLogin login = new frmLogin();
+            this.Hide();
+            login.Show();
         }
     }
 }

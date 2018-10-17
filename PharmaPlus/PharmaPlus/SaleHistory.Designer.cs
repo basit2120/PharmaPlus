@@ -1,6 +1,6 @@
 ﻿namespace PharmaPlus
 {
-    partial class SaleHistory
+    partial class frmSaleHistory
     {
         /// <summary>
         /// Required designer variable.
@@ -209,7 +209,7 @@
             this.pictureBox7.TabIndex = 51;
             this.pictureBox7.TabStop = false;
             // 
-            // SaleHistory
+            // frmSaleHistory
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
@@ -223,7 +223,7 @@
             this.Controls.Add(this.button5);
             this.Controls.Add(this.button4);
             this.Controls.Add(this.pictureBox2);
-            this.Name = "SaleHistory";
+            this.Name = "frmSaleHistory";
             this.Text = "SaleHistory";
             this.groupBox3.ResumeLayout(false);
             this.groupBox3.PerformLayout();
