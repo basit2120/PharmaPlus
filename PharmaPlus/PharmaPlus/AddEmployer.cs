@@ -10,14 +10,19 @@ using System.Windows.Forms;
 
 namespace PharmaPlus
 {
-    public partial class ViewStock : Form
+    public partial class AddEmployer : Form
     {
-        public ViewStock()
+        public AddEmployer()
         {
             InitializeComponent();
         }
 
-        private void label1_Click(object sender, EventArgs e)
+        private void label3_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void comboBox3_SelectedIndexChanged(object sender, EventArgs e)
         {
 
         }

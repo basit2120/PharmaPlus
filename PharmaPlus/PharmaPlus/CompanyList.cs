@@ -10,16 +10,11 @@ using System.Windows.Forms;
 
 namespace PharmaPlus
 {
-    public partial class ViewStock : Form
+    public partial class CompanyList : Form
     {
-        public ViewStock()
+        public CompanyList()
         {
             InitializeComponent();
-        }
-
-        private void label1_Click(object sender, EventArgs e)
-        {
-
         }
     }
 }

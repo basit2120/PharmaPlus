@@ -46,6 +46,30 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="AddCompany.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="AddCompany.Designer.cs">
+      <DependentUpon>AddCompany.cs</DependentUpon>
+    </Compile>
+    <Compile Include="AddEmployer.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="AddEmployer.Designer.cs">
+      <DependentUpon>AddEmployer.cs</DependentUpon>
+    </Compile>
+    <Compile Include="CompanyList.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="CompanyList.Designer.cs">
+      <DependentUpon>CompanyList.cs</DependentUpon>
+    </Compile>
+    <Compile Include="EmployerList.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="EmployerList.Designer.cs">
+      <DependentUpon>EmployerList.cs</DependentUpon>
+    </Compile>
     <Compile Include="Home.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -66,11 +90,35 @@
     <Compile Include="AddStock.Designer.cs">
       <DependentUpon>AddStock.cs</DependentUpon>
     </Compile>
+    <Compile Include="RemoveCompany.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="RemoveCompany.Designer.cs">
+      <DependentUpon>RemoveCompany.cs</DependentUpon>
+    </Compile>
+    <Compile Include="RemoveEmployer.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="RemoveEmployer.Designer.cs">
+      <DependentUpon>RemoveEmployer.cs</DependentUpon>
+    </Compile>
     <Compile Include="RemoveStock.cs">
       <SubType>Form</SubType>
     </Compile>
     <Compile Include="RemoveStock.Designer.cs">
       <DependentUpon>RemoveStock.cs</DependentUpon>
+    </Compile>
+    <Compile Include="SaleHistory.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="SaleHistory.Designer.cs">
+      <DependentUpon>SaleHistory.cs</DependentUpon>
+    </Compile>
+    <Compile Include="SaleStock.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="SaleStock.Designer.cs">
+      <DependentUpon>SaleStock.cs</DependentUpon>
     </Compile>
     <Compile Include="UpdateStoke.cs">
       <SubType>Form</SubType>
@@ -84,6 +132,18 @@
     <Compile Include="ViewStock.Designer.cs">
       <DependentUpon>ViewStock.cs</DependentUpon>
     </Compile>
+    <EmbeddedResource Include="AddCompany.resx">
+      <DependentUpon>AddCompany.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="AddEmployer.resx">
+      <DependentUpon>AddEmployer.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="CompanyList.resx">
+      <DependentUpon>CompanyList.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="EmployerList.resx">
+      <DependentUpon>EmployerList.cs</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="Home.resx">
       <DependentUpon>Home.cs</DependentUpon>
     </EmbeddedResource>
@@ -103,8 +163,20 @@
     <EmbeddedResource Include="AddStock.resx">
       <DependentUpon>AddStock.cs</DependentUpon>
     </EmbeddedResource>
+    <EmbeddedResource Include="RemoveCompany.resx">
+      <DependentUpon>RemoveCompany.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="RemoveEmployer.resx">
+      <DependentUpon>RemoveEmployer.cs</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="RemoveStock.resx">
       <DependentUpon>RemoveStock.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="SaleHistory.resx">
+      <DependentUpon>SaleHistory.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="SaleStock.resx">
+      <DependentUpon>SaleStock.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="UpdateStoke.resx">
       <DependentUpon>UpdateStoke.cs</DependentUpon>
@@ -151,6 +223,39 @@
   </ItemGroup>
   <ItemGroup>
     <None Include="Resources\Company1.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Cholesterol-l-Academie-de-medecine-met-en-garde-contre-l-arret-des-statines_exact1024x768_l.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Entreprises-pharmaceutiques-italiennes.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\shutterstock_medicine_tablets.jpeg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\photo-512.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Cover11.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Cover12.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\LogoPNG1.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\shutterstock_medicine_tablets1.jpeg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\shutterstock_medicine_tablets2.jpeg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Cholesterol-l-Academie-de-medecine-met-en-garde-contre-l-arret-des-statines_exact1024x768_l1.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\shutterstock_medicine_tabletsCropped.jpeg" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>

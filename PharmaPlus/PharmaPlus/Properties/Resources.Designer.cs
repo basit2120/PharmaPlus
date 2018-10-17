@@ -63,6 +63,28 @@ namespace PharmaPlus.Properties {
         /// <summary>
         ///   Looks up a localized resource of type System.Drawing.Bitmap.
         /// </summary>
+        internal static System.Drawing.Bitmap Cholesterol_l_Academie_de_medecine_met_en_garde_contre_l_arret_des_statines_exact1024x768_l {
+            get {
+                object obj = ResourceManager.GetObject("Cholesterol-l-Academie-de-medecine-met-en-garde-contre-l-arret-des-statines_exact" +
+                        "1024x768_l", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap Cholesterol_l_Academie_de_medecine_met_en_garde_contre_l_arret_des_statines_exact1024x768_l1 {
+            get {
+                object obj = ResourceManager.GetObject("Cholesterol-l-Academie-de-medecine-met-en-garde-contre-l-arret-des-statines_exact" +
+                        "1024x768_l1", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
         internal static System.Drawing.Bitmap Clients1 {
             get {
                 object obj = ResourceManager.GetObject("Clients1", resourceCulture);
@@ -103,6 +125,36 @@ namespace PharmaPlus.Properties {
         /// <summary>
         ///   Looks up a localized resource of type System.Drawing.Bitmap.
         /// </summary>
+        internal static System.Drawing.Bitmap Cover11 {
+            get {
+                object obj = ResourceManager.GetObject("Cover11", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap Cover12 {
+            get {
+                object obj = ResourceManager.GetObject("Cover12", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap Entreprises_pharmaceutiques_italiennes {
+            get {
+                object obj = ResourceManager.GetObject("Entreprises-pharmaceutiques-italiennes", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
         internal static System.Drawing.Bitmap Logo {
             get {
                 object obj = ResourceManager.GetObject("Logo", resourceCulture);
@@ -123,6 +175,26 @@ namespace PharmaPlus.Properties {
         /// <summary>
         ///   Looks up a localized resource of type System.Drawing.Bitmap.
         /// </summary>
+        internal static System.Drawing.Bitmap LogoPNG1 {
+            get {
+                object obj = ResourceManager.GetObject("LogoPNG1", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap photo_512 {
+            get {
+                object obj = ResourceManager.GetObject("photo-512", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
         internal static System.Drawing.Bitmap Sell1 {
             get {
                 object obj = ResourceManager.GetObject("Sell1", resourceCulture);
@@ -136,6 +208,46 @@ namespace PharmaPlus.Properties {
         internal static System.Drawing.Bitmap Sell2 {
             get {
                 object obj = ResourceManager.GetObject("Sell2", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap shutterstock_medicine_tablets {
+            get {
+                object obj = ResourceManager.GetObject("shutterstock_medicine_tablets", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap shutterstock_medicine_tablets1 {
+            get {
+                object obj = ResourceManager.GetObject("shutterstock_medicine_tablets1", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap shutterstock_medicine_tablets2 {
+            get {
+                object obj = ResourceManager.GetObject("shutterstock_medicine_tablets2", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap shutterstock_medicine_tabletsCropped {
+            get {
+                object obj = ResourceManager.GetObject("shutterstock_medicine_tabletsCropped", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
             }
         }

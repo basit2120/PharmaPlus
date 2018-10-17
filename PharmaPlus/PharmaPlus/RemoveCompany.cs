@@ -10,14 +10,14 @@ using System.Windows.Forms;
 
 namespace PharmaPlus
 {
-    public partial class ViewStock : Form
+    public partial class RemoveCompany : Form
     {
-        public ViewStock()
+        public RemoveCompany()
         {
             InitializeComponent();
         }
 
-        private void label1_Click(object sender, EventArgs e)
+        private void RemoveCompany_Load(object sender, EventArgs e)
         {
 
         }
