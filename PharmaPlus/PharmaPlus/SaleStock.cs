@@ -45,5 +45,12 @@ namespace PharmaPlus
             this.Hide();
             login.Show();
         }
+
+        private void button5_Click(object sender, EventArgs e)
+        {
+            frmSaleHistory SaleHistory = new frmSaleHistory();
+            this.Hide();
+            SaleHistory.Show();
+        }
     }
 }
