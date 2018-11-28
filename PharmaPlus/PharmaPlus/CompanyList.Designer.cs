@@ -71,7 +71,8 @@
             this.textBox2.Location = new System.Drawing.Point(422, 49);
             this.textBox2.Name = "textBox2";
             this.textBox2.Size = new System.Drawing.Size(138, 26);
-            this.textBox2.TabIndex = 26;
+            this.textBox2.TabIndex = 1;
+            this.textBox2.TextChanged += new System.EventHandler(this.textBox2_TextChanged);
             // 
             // dataGridView1
             // 
@@ -95,7 +96,8 @@
             this.textBox1.Location = new System.Drawing.Point(142, 49);
             this.textBox1.Name = "textBox1";
             this.textBox1.Size = new System.Drawing.Size(138, 26);
-            this.textBox1.TabIndex = 16;
+            this.textBox1.TabIndex = 0;
+            this.textBox1.TextChanged += new System.EventHandler(this.textBox1_TextChanged);
             // 
             // label4
             // 
@@ -241,7 +243,9 @@
             this.Controls.Add(this.groupBox2);
             this.Controls.Add(this.pictureBox2);
             this.Name = "frmCompanyList";
+            this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "CompanyList";
+            this.Load += new System.EventHandler(this.frmCompanyList_Load);
             this.groupBox2.ResumeLayout(false);
             this.groupBox2.PerformLayout();
             ((System.ComponentModel.ISupportInitialize)(this.dataGridView1)).EndInit();

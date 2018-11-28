@@ -2,6 +2,7 @@
 using System.Collections.Generic;
 using System.ComponentModel;
 using System.Data;
+using System.Data.SqlClient;
 using System.Drawing;
 using System.Linq;
 using System.Text;
@@ -16,6 +17,9 @@ namespace PharmaPlus
         {
             InitializeComponent();
         }
+
+        public string conSt = "Data Source=DESKTOP-L1Q6T8J\\BASITSQL;Initial Catalog=PharrmaPlus;Integrated Security=True";
+
 
         private void label3_Click(object sender, EventArgs e)
         {
@@ -57,7 +61,30 @@ namespace PharmaPlus
 
         private void button8_Click(object sender, EventArgs e)
         {
-            MessageBox.Show("Employ has been Added");
+            //MessageBox.Show("Employ has been Added");
+
+            SqlConnection con = new SqlConnection(conSt);
+            con.Open();
+            if (con.State == System.Data.ConnectionState.Open)
+            {
+                string data = "insert into AddEmploy(EmployerName,CellNo,CNIC,Gender,Email,Address,City,DOB) values('" + textBox1.Text + "','" + int.Parse(textBox5.Text) + "' , '" + int.Parse(textBox5.Text) + "' , '" + comboBox3.Text + "', '" + textBox4.Text + "', '" + textBox2.Text + "','" + textBox3.Text + "', '" + DateTime.Parse(dateTimePicker1.Text.ToString()) + "')";
+                SqlCommand cmd = new SqlCommand(data, con);
+                try
+                {
+
+                    if (cmd.ExecuteNonQuery() > 0)
+                    {
+                        MessageBox.Show("added in database");
+
+                    }
+                }
+                catch (System.Exception ex)
+                {
+                    MessageBox.Show("Error is " + ex.ToString());
+                }
+            }
         }
     }
+
 }
+

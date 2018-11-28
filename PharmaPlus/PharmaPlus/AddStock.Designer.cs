@@ -191,7 +191,7 @@
             this.button8.Location = new System.Drawing.Point(331, 320);
             this.button8.Name = "button8";
             this.button8.Size = new System.Drawing.Size(129, 28);
-            this.button8.TabIndex = 26;
+            this.button8.TabIndex = 8;
             this.button8.Text = "Add Stock";
             this.button8.UseVisualStyleBackColor = true;
             this.button8.Click += new System.EventHandler(this.button8_Click);
@@ -201,31 +201,40 @@
             this.dateTimePicker1.Location = new System.Drawing.Point(325, 274);
             this.dateTimePicker1.Name = "dateTimePicker1";
             this.dateTimePicker1.Size = new System.Drawing.Size(139, 26);
-            this.dateTimePicker1.TabIndex = 25;
+            this.dateTimePicker1.TabIndex = 7;
             // 
             // comboBox3
             // 
             this.comboBox3.FormattingEnabled = true;
+            this.comboBox3.Items.AddRange(new object[] {
+            "phzer",
+            "docPhrama",
+            "Greek"});
             this.comboBox3.Location = new System.Drawing.Point(325, 208);
             this.comboBox3.Name = "comboBox3";
             this.comboBox3.Size = new System.Drawing.Size(138, 28);
-            this.comboBox3.TabIndex = 23;
+            this.comboBox3.TabIndex = 5;
             this.comboBox3.SelectedIndexChanged += new System.EventHandler(this.comboBox3_SelectedIndexChanged);
             // 
             // comboBox1
             // 
             this.comboBox1.FormattingEnabled = true;
+            this.comboBox1.Items.AddRange(new object[] {
+            "Medicine",
+            "Syrup",
+            "Injection",
+            "Cream"});
             this.comboBox1.Location = new System.Drawing.Point(325, 142);
             this.comboBox1.Name = "comboBox1";
             this.comboBox1.Size = new System.Drawing.Size(139, 28);
-            this.comboBox1.TabIndex = 21;
+            this.comboBox1.TabIndex = 3;
             // 
             // textBox5
             // 
             this.textBox5.Location = new System.Drawing.Point(325, 79);
             this.textBox5.Name = "textBox5";
             this.textBox5.Size = new System.Drawing.Size(138, 26);
-            this.textBox5.TabIndex = 20;
+            this.textBox5.TabIndex = 1;
             this.textBox5.TextChanged += new System.EventHandler(this.textBox5_TextChanged);
             // 
             // textBox4
@@ -233,21 +242,21 @@
             this.textBox4.Location = new System.Drawing.Point(325, 176);
             this.textBox4.Name = "textBox4";
             this.textBox4.Size = new System.Drawing.Size(138, 26);
-            this.textBox4.TabIndex = 19;
+            this.textBox4.TabIndex = 4;
             // 
             // textBox3
             // 
             this.textBox3.Location = new System.Drawing.Point(325, 242);
             this.textBox3.Name = "textBox3";
             this.textBox3.Size = new System.Drawing.Size(138, 26);
-            this.textBox3.TabIndex = 18;
+            this.textBox3.TabIndex = 6;
             // 
             // textBox2
             // 
             this.textBox2.Location = new System.Drawing.Point(325, 110);
             this.textBox2.Name = "textBox2";
             this.textBox2.Size = new System.Drawing.Size(138, 26);
-            this.textBox2.TabIndex = 17;
+            this.textBox2.TabIndex = 2;
             this.textBox2.TextChanged += new System.EventHandler(this.textBox2_TextChanged);
             // 
             // textBox1
@@ -255,7 +264,7 @@
             this.textBox1.Location = new System.Drawing.Point(325, 47);
             this.textBox1.Name = "textBox1";
             this.textBox1.Size = new System.Drawing.Size(138, 26);
-            this.textBox1.TabIndex = 16;
+            this.textBox1.TabIndex = 0;
             // 
             // label4
             // 
@@ -376,6 +385,7 @@
             this.Controls.Add(this.groupBox1);
             this.Controls.Add(this.pictureBox2);
             this.Name = "frmAddStock";
+            this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "Stock";
             this.Load += new System.EventHandler(this.Stock_Load);
             this.groupBox2.ResumeLayout(false);

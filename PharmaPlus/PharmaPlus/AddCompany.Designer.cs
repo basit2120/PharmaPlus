@@ -92,28 +92,28 @@
             this.textBox8.Location = new System.Drawing.Point(325, 274);
             this.textBox8.Name = "textBox8";
             this.textBox8.Size = new System.Drawing.Size(138, 26);
-            this.textBox8.TabIndex = 29;
+            this.textBox8.TabIndex = 7;
             // 
             // textBox7
             // 
             this.textBox7.Location = new System.Drawing.Point(325, 210);
             this.textBox7.Name = "textBox7";
             this.textBox7.Size = new System.Drawing.Size(138, 26);
-            this.textBox7.TabIndex = 28;
+            this.textBox7.TabIndex = 5;
             // 
             // textBox6
             // 
             this.textBox6.Location = new System.Drawing.Point(325, 144);
             this.textBox6.Name = "textBox6";
             this.textBox6.Size = new System.Drawing.Size(138, 26);
-            this.textBox6.TabIndex = 27;
+            this.textBox6.TabIndex = 3;
             // 
             // button8
             // 
             this.button8.Location = new System.Drawing.Point(331, 320);
             this.button8.Name = "button8";
             this.button8.Size = new System.Drawing.Size(129, 28);
-            this.button8.TabIndex = 26;
+            this.button8.TabIndex = 8;
             this.button8.Text = "Add Company";
             this.button8.UseVisualStyleBackColor = true;
             this.button8.Click += new System.EventHandler(this.button8_Click);
@@ -123,35 +123,35 @@
             this.textBox5.Location = new System.Drawing.Point(325, 79);
             this.textBox5.Name = "textBox5";
             this.textBox5.Size = new System.Drawing.Size(138, 26);
-            this.textBox5.TabIndex = 20;
+            this.textBox5.TabIndex = 1;
             // 
             // textBox4
             // 
             this.textBox4.Location = new System.Drawing.Point(325, 176);
             this.textBox4.Name = "textBox4";
             this.textBox4.Size = new System.Drawing.Size(138, 26);
-            this.textBox4.TabIndex = 19;
+            this.textBox4.TabIndex = 4;
             // 
             // textBox3
             // 
             this.textBox3.Location = new System.Drawing.Point(325, 242);
             this.textBox3.Name = "textBox3";
             this.textBox3.Size = new System.Drawing.Size(138, 26);
-            this.textBox3.TabIndex = 18;
+            this.textBox3.TabIndex = 6;
             // 
             // textBox2
             // 
             this.textBox2.Location = new System.Drawing.Point(325, 110);
             this.textBox2.Name = "textBox2";
             this.textBox2.Size = new System.Drawing.Size(138, 26);
-            this.textBox2.TabIndex = 17;
+            this.textBox2.TabIndex = 2;
             // 
             // textBox1
             // 
             this.textBox1.Location = new System.Drawing.Point(325, 47);
             this.textBox1.Name = "textBox1";
             this.textBox1.Size = new System.Drawing.Size(138, 26);
-            this.textBox1.TabIndex = 16;
+            this.textBox1.TabIndex = 0;
             // 
             // label4
             // 
@@ -352,6 +352,7 @@
             this.Controls.Add(this.groupBox1);
             this.Controls.Add(this.pictureBox2);
             this.Name = "frmAddCompany";
+            this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "AddCompany";
             this.groupBox2.ResumeLayout(false);
             this.groupBox2.PerformLayout();

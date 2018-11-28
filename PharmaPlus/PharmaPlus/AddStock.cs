@@ -2,6 +2,7 @@
 using System.Collections.Generic;
 using System.ComponentModel;
 using System.Data;
+using System.Data.SqlClient;
 using System.Drawing;
 using System.Linq;
 using System.Text;
@@ -16,6 +17,8 @@ namespace PharmaPlus
         {
             InitializeComponent();
         }
+        public string conSt = "Data Source=DESKTOP-L1Q6T8J\\BASITSQL;Initial Catalog=PharrmaPlus;Integrated Security=True";
+
 
         private void button2_Click(object sender, EventArgs e)
         {
@@ -110,7 +113,32 @@ namespace PharmaPlus
 
         private void button8_Click(object sender, EventArgs e)
         {
-            MessageBox.Show("Product has been Added");
+            SqlConnection con = new SqlConnection(conSt);
+            con.Open();
+            if (con.State == System.Data.ConnectionState.Open)
+            {
+                string data = "insert into AddStock(Itemname,ItemQuantity,PricePerPiece,ItemType,Milligram,ManufacturedBy,MLNumber,ExpirationDate) values('" + textBox1.Text + "','" + int.Parse(textBox5.Text) + "' , '" + int.Parse(textBox2.Text) + "' , '" + comboBox1.Text + "', '" + int.Parse(textBox4.Text) + "', '" + comboBox3.Text + "','" + textBox3.Text + "', '" +DateTime.Parse(dateTimePicker1.Text.ToString())+ "')";
+                SqlCommand cmd = new SqlCommand(data, con);
+                try
+                {
+
+                    if (cmd.ExecuteNonQuery() > 0)
+                    {
+                        MessageBox.Show("added in database");
+                        //string show = "select * from OnlyName";
+                        //DataTable table = new DataTable();
+                        //SqlDataAdapter dat = new SqlDataAdapter(show, con);
+                        //dat.Fill(table);
+                        //dataGridView1.DataSource = table;
+
+
+                    }
+                }
+                catch (System.Exception ex)
+                {
+                    MessageBox.Show("Error is " + ex.ToString());
+                }
+            }
         }
     }
 }

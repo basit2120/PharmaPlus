@@ -7,18 +7,25 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 using System.Windows.Forms;
+using System.Data.SqlClient;
 
 namespace PharmaPlus
 {
     public partial class frmLogin : Form
     {
+        public string conSt = "Data Source=DESKTOP-L1Q6T8J\\BASITSQL;Initial Catalog=PharrmaPlus;Integrated Security=True";
+       
         public frmLogin()
         {
             InitializeComponent();
         }
 
+
         private void Form1_Load(object sender, EventArgs e)
         {
+            
+
+
             
         }
 
@@ -44,9 +51,38 @@ namespace PharmaPlus
 
         private void button1_Click(object sender, EventArgs e)
         {
-            frmHome Home = new frmHome();
-            this.Hide();
-            Home.Show();
+            //string pass=textBox2.Text;
+            //SqlConnection con = new SqlConnection(conSt);
+            //con.Open();
+            //if (con.State == System.Data.ConnectionState.Open)
+            //{
+            //    string check = "select * from Login where password='" + pass + "'";
+            //    SqlCommand c = new SqlCommand(check, con);
+            //    MessageBox.Show(c.ExecuteNonQuery().ToString()+textBox2.Text);
+            //    if (c.ExecuteNonQuery() > 0)
+            //    {
+            //        MessageBox.Show("already exist");
+            //    }
+    
+
+            //    }
+            if(textBox1.Text=="admin" && textBox2.Text == "admin")
+            {
+                this.Hide();
+                frmHome form = new frmHome();
+                form.Show();
+            }
+            if (textBox1.Text == null && textBox2.Text == null)
+            {
+                MessageBox.Show("Please Enter ID and Password");
+            }
+            if (textBox1.Text != "admin" || textBox2.Text != "admin")
+            {
+                MessageBox.Show("Please Enter correct ID and Password");
+            }
+
+
+
         }
 
         private void pictureBox2_Click(object sender, EventArgs e)

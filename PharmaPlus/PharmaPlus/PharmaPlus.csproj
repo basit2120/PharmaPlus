@@ -64,6 +64,7 @@
     <Compile Include="CompanyList.Designer.cs">
       <DependentUpon>CompanyList.cs</DependentUpon>
     </Compile>
+    <Compile Include="DBConnection.cs" />
     <Compile Include="EmployerList.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -81,6 +82,11 @@
     </Compile>
     <Compile Include="Login.Designer.cs">
       <DependentUpon>Login.cs</DependentUpon>
+    </Compile>
+    <Compile Include="PharrmaPlusDataSet.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>PharrmaPlusDataSet.xsd</DependentUpon>
     </Compile>
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
@@ -184,6 +190,17 @@
     <EmbeddedResource Include="ViewStock.resx">
       <DependentUpon>ViewStock.cs</DependentUpon>
     </EmbeddedResource>
+    <None Include="PharrmaPlusDataSet.xsc">
+      <DependentUpon>PharrmaPlusDataSet.xsd</DependentUpon>
+    </None>
+    <None Include="PharrmaPlusDataSet.xsd">
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>PharrmaPlusDataSet.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="PharrmaPlusDataSet.xss">
+      <DependentUpon>PharrmaPlusDataSet.xsd</DependentUpon>
+    </None>
     <None Include="Properties\Settings.settings">
       <Generator>SettingsSingleFileGenerator</Generator>
       <LastGenOutput>Settings.Designer.cs</LastGenOutput>

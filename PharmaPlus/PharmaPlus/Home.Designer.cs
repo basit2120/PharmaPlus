@@ -210,6 +210,7 @@
             this.Controls.Add(this.groupBox1);
             this.Controls.Add(this.pictureBox6);
             this.Name = "frmHome";
+            this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "Home";
             this.groupBox1.ResumeLayout(false);
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox7)).EndInit();

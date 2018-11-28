@@ -84,7 +84,8 @@
             this.textBox1.Location = new System.Drawing.Point(142, 49);
             this.textBox1.Name = "textBox1";
             this.textBox1.Size = new System.Drawing.Size(138, 26);
-            this.textBox1.TabIndex = 16;
+            this.textBox1.TabIndex = 0;
+            this.textBox1.TextChanged += new System.EventHandler(this.textBox1_TextChanged);
             // 
             // label1
             // 
@@ -221,7 +222,9 @@
             this.Controls.Add(this.button4);
             this.Controls.Add(this.pictureBox2);
             this.Name = "frmEmployerList";
+            this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "EmployerList";
+            this.Load += new System.EventHandler(this.frmEmployerList_Load);
             this.groupBox2.ResumeLayout(false);
             this.groupBox2.PerformLayout();
             ((System.ComponentModel.ISupportInitialize)(this.dataGridView1)).EndInit();
