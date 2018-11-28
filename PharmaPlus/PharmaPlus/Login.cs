@@ -72,7 +72,7 @@ namespace PharmaPlus
                 frmHome form = new frmHome();
                 form.Show();
             }
-            if (textBox1.Text == null && textBox2.Text == null)
+            if (textBox1.Text == "" && textBox2.Text == "")
             {
                 MessageBox.Show("Please Enter ID and Password");
             }
