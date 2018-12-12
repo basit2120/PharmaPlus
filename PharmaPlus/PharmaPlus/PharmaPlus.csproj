@@ -126,6 +126,10 @@
     <Compile Include="SaleStock.Designer.cs">
       <DependentUpon>SaleStock.cs</DependentUpon>
     </Compile>
+    <Compile Include="RemoveEmploy.cs" />
+    <Compile Include="RemoveEmployUtile.cs" />
+    <Compile Include="UpdateStock.cs" />
+    <Compile Include="UpdateStockUtile.cs" />
     <Compile Include="UpdateStoke.cs">
       <SubType>Form</SubType>
     </Compile>

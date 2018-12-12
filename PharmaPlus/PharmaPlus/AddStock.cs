@@ -117,7 +117,10 @@ namespace PharmaPlus
             con.Open();
             if (con.State == System.Data.ConnectionState.Open)
             {
-                string data = "insert into AddStock(Itemname,ItemQuantity,PricePerPiece,ItemType,Milligram,ManufacturedBy,MLNumber,ExpirationDate) values('" + textBox1.Text + "','" + int.Parse(textBox5.Text) + "' , '" + int.Parse(textBox2.Text) + "' , '" + comboBox1.Text + "', '" + int.Parse(textBox4.Text) + "', '" + comboBox3.Text + "','" + textBox3.Text + "', '" +DateTime.Parse(dateTimePicker1.Text.ToString())+ "')";
+                float result;
+                string data =
+"insert into AddStock(Itemname,ItemQuantity,PricePerPiece,ItemType,Milligram,ManufacturedBy,MLNumber,ExpirationDate) values('" + textBox1.Text + "','" + int.Parse(textBox5.Text) + "' , '" + int.Parse(textBox2.Text) + "' , '" + comboBox1.Text + "', '" + float.TryParse(textBox4.Text, out result) + "', '" + comboBox3.Text + "','" + textBox3.Text + "', '" + DateTime.Parse(dateTimePicker1.Text.ToString()) + "')";
+
                 SqlCommand cmd = new SqlCommand(data, con);
                 try
                 {
